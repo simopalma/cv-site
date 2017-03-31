@@ -1,0 +1,17 @@
+{
+  "name": "cv-site",
+  "homepage": "https://simopalma.github.io/cv-site/",
+  "authors": [
+    "Simone Palma <sem.palma@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

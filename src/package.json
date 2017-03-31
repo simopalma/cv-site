@@ -1,0 +1,22 @@
+{
+  "name": "cv-site",
+  "version": "1.0.0",
+  "description": "Personal cv site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simopalma/cv-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simopalma/cv-site/issues"
+  },
+  "homepage": "https://github.com/simopalma/cv-site#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}

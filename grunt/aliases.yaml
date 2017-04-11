@@ -1,0 +1,7 @@
+# stylesheets
+stylesheets:
+    - 'less'
+
+# javascripts
+javascripts:
+    - 'webpack:dev'

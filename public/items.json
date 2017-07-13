@@ -1,4 +1,4 @@
-export default {
+{
     "entry": [
       {
         "category": [
@@ -424,4 +424,4 @@ export default {
         }
       }
     ]
-};
+}

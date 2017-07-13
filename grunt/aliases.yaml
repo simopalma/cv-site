@@ -1,7 +1,12 @@
 # stylesheets
 stylesheets:
-    - 'less'
+    - 'less:dist'
 
 # javascripts
 javascripts:
     - 'webpack:dev'
+
+# build
+build:
+    - 'javascripts'
+    - 'stylesheets'

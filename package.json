@@ -1,40 +1,63 @@
 {
-  "name": "cv-site",
+  "name": "Simone-Palma-Resume",
   "version": "1.0.0",
-  "description": "Personal cv site",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A simple resume of my experience",
+  "main": "app.js",
+  "author": "Simone Palma",
+  "contributors": "Simone Palma",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simopalma/cv-site.git"
+    "url": "https://github.com/simopalma/cv-site"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simopalma/cv-site/issues"
+  "keywords": [
+    "react",
+    "flux",
+    "grunt",
+    "bower",
+    "babel",
+    "less",
+    "eslint"
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "start": "http-server",
+    "build": "grunt test build",
+    "deploy": "grunt test build gh-pages:local"
   },
-  "homepage": "https://github.com/simopalma/cv-site#readme",
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-less": "^1.4.1",
-    "grunt-contrib-uglify": "^2.3.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "load-grunt-config": "^0.19.2",
-    "time-grunt": "^1.4.0",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2",
-    "grunt-webpack": "^1.0.18"
+  "engines": {
+    "node": "6.9.4"
   },
   "dependencies": {
+    "flux": "^3.1.0",
     "react": "^15.5.3",
-    "react-dom": "^15.5.3"
+    "react-dom": "^15.5.3",
+    "rest": "^2.0.0",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "grunt": "^1.0.1",
+    "load-grunt-config": "^0.19.2",
+    "time-grunt": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-eslint": "^19.0.0",
+    "babel-eslint": "^7.1.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "grunt-gh-pages": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-string-replace": "^1.3.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "grunt-webpack": "^1.0.18",
+    "babel-loader": "^6.2.8",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
   }
 }

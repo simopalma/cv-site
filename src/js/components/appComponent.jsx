@@ -1,22 +1,34 @@
 import React, { Component } from 'react';
-import json from '../json/jsonMock';
+import ItemsActions from '../actions/ItemsActions';
+import ItemsStore from '../stores/ItemsStore';
 
 export default class AppComponent extends Component {
 
-    getJsonEntry() {
-        return json.entry;
+    constructor(props) {
+        super(props);
+        this.state = { items: ItemsStore.items() };
+
+        this.onLoadItems = this.onLoadItems.bind(this);
     }
 
-    getScheme() {
-        let entry = this.getJsonEntry();
+    componentDidMount() {
+        ItemsStore.addLoadItemsListener(this.onLoadItems);
 
-        return entry[0].category[0].scheme;
+        ItemsActions.loadItems();
+    }
+
+    componentWillUnmount() {
+        ItemsStore.removeLoadItemsListener(this.onLoadItems);
+    }
+
+    onLoadItems() {
+        this.setState({ items: ItemsStore.items() });
     }
 
     render() {
         return (
             <div className="app">
-                { this.getScheme() }
+                { this.state.items }
             </div>
         );
     }

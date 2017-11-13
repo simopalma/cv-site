@@ -7,4 +7,9 @@ export default {
             actionType: ItemsConstants.LOAD_ITEMS,
         });
     },
+    loadInformations() {
+        AppDispatcher.dispatch({
+            actionType: ItemsConstants.LOAD_INFORMATIONS,
+        });
+    },
 };

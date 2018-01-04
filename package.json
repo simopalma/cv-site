@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "test": "grunt test",
-    "start": "http-server",
+    "start": "http-server ./public -f /index.html",
     "build": "grunt test build",
     "deploy": "grunt test build gh-pages:local"
   },
@@ -29,9 +29,13 @@
     "node": "6.9.4"
   },
   "dependencies": {
+    "classname": "0.0.0",
     "flux": "^3.1.0",
+    "http-server": "github:skleeschulte/http-server",
+    "moment": "^2.20.1",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
+    "react-router-dom": "^4.2.2",
     "rest": "^2.0.0",
     "underscore": "*"
   },

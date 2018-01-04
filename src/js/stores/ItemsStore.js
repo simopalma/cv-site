@@ -1,8 +1,9 @@
 import EventEmitter from 'events';
-import _ from 'underscore';
 import AppDispatcher from '../dispatcher/AppDispatcher';
 import ItemsConstants from '../constants/ItemsConstants';
 import Loader from '../class/Loader';
+import Item from '../class/Item';
+import Information from '../class/Information';
 
 const itemsLoader = new Loader();
 
@@ -25,9 +26,12 @@ const state = {
     },
 };
 
+const emptyInformations = new Information({});
+const emptyItem = new Item({});
+
 const results = {
-    items: [],
-    informations: {},
+    items: [emptyItem],
+    informations: [emptyInformations],
 };
 
 const ItemsStore = Object.assign({}, EventEmitter.prototype, {

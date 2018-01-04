@@ -1,7 +1,7 @@
 import _ from 'underscore';
 
 export default class Item {
-    constructor({ project = '', from = '', to = '', role = '', url = '', description = '', technologies = '' }) {
+    constructor({ project = '', from = '', to = '', role = '', url = '', description = '', technologies = '', company = '' }) {
         this.project = project;
         this.from = from;
         this.to = to;
@@ -11,5 +11,6 @@ export default class Item {
         }) : [];
         this.url = url;
         this.description = description;
+        this.company = company;
     }
 }

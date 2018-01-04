@@ -1,7 +1,7 @@
 const timeGrunt = require('time-grunt');
 const loadGruntConfig = require('load-grunt-config');
 
-module.exports = grunt => {
+module.exports = (grunt) => {
     const data = {
         paths: {
             source: {

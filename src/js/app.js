@@ -4,5 +4,5 @@ import AppComponent from './components/AppComponent';
 
 ReactDOM.render(
     <AppComponent />
-    , document.getElementById('root')
+    , document.getElementById('root'),
 );

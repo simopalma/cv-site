@@ -21,10 +21,10 @@ export default class AppComponent extends Component {
                     <Header />
                     <div className="site-main">
                         <div className="subpages">
-                            <Route exact path="/" component={Home} />
-                            <Route path="/about" component={About} />
-                            <Route path="/resume" component={Resume} />
-                            <Route path="/contact" component={Contact} />
+                            <Route exact path="/cv-site" component={Home} />
+                            <Route path="/cv-site/about" component={About} />
+                            <Route path="/cv-site/resume" component={Resume} />
+                            <Route path="/cv-site/contact" component={Contact} />
                         </div>
                     </div>
                 </div>

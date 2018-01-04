@@ -27674,7 +27674,7 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    _reactRouterDom.Link,
-	                                    { className: 'pt-trigger', to: '/', onClick: function onClick() {
+	                                    { className: 'pt-trigger', to: '/cv-site', onClick: function onClick() {
 	                                            return _this2.openMobileMenu();
 	                                        } },
 	                                    'Home'
@@ -27685,7 +27685,7 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    _reactRouterDom.Link,
-	                                    { className: 'pt-trigger', to: '/about', onClick: function onClick() {
+	                                    { className: 'pt-trigger', to: '/cv-site/about', onClick: function onClick() {
 	                                            return _this2.openMobileMenu();
 	                                        } },
 	                                    'About me'
@@ -27696,7 +27696,7 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    _reactRouterDom.Link,
-	                                    { className: 'pt-trigger', to: '/resume', onClick: function onClick() {
+	                                    { className: 'pt-trigger', to: '/cv-site/resume', onClick: function onClick() {
 	                                            return _this2.openMobileMenu();
 	                                        } },
 	                                    'Resume'
@@ -27707,7 +27707,7 @@
 	                                null,
 	                                _react2.default.createElement(
 	                                    _reactRouterDom.Link,
-	                                    { className: 'pt-trigger', to: '/contact', onClick: function onClick() {
+	                                    { className: 'pt-trigger', to: '/cv-site/contact', onClick: function onClick() {
 	                                            return _this2.openMobileMenu();
 	                                        } },
 	                                    'Contact'

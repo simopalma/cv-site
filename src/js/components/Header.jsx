@@ -67,16 +67,16 @@ export default class Header extends Component {
                         <ul id="nav" className="site-main-menu">
                             {/* About Me Subpage link */}
                             <li>
-                                <Link className="pt-trigger" to="/" onClick={() => this.openMobileMenu()}>Home</Link>
+                                <Link className="pt-trigger" to="/cv-site" onClick={() => this.openMobileMenu()}>Home</Link>
                             </li>
                             <li>
-                                <Link className="pt-trigger" to="/about" onClick={() => this.openMobileMenu()}>About me</Link>
+                                <Link className="pt-trigger" to="/cv-site/about" onClick={() => this.openMobileMenu()}>About me</Link>
                             </li>
                             <li>
-                                <Link className="pt-trigger" to="/resume" onClick={() => this.openMobileMenu()}>Resume</Link>
+                                <Link className="pt-trigger" to="/cv-site/resume" onClick={() => this.openMobileMenu()}>Resume</Link>
                             </li>
                             <li>
-                                <Link className="pt-trigger" to="/contact" onClick={() => this.openMobileMenu()}>Contact</Link>
+                                <Link className="pt-trigger" to="/cv-site/contact" onClick={() => this.openMobileMenu()}>Contact</Link>
                             </li>
                         </ul>
                         {/* /Main menu */}

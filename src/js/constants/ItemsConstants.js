@@ -1,4 +1,0 @@
-export default {
-    LOAD_ITEMS: 'LOAD_ITEMS',
-    LOAD_INFORMATIONS: 'LOAD_INFORMATIONS',
-};

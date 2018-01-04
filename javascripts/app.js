@@ -32712,7 +32712,7 @@
 	                { className: 'subpages' },
 	                _react2.default.createElement(
 	                    'section',
-	                    { className: 'pt-page pt-page-1 section-with-bg section-paddings-0 pt-page-current', style: { backgroundImage: "url('cv-site/images/home_page_bg.jpg')" } },
+	                    { className: 'pt-page pt-page-1 section-with-bg section-paddings-0 pt-page-current', style: { backgroundImage: "url('/cv-site/images/home_page_bg.jpg')" } },
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'home-page-block-bg' },

@@ -22767,10 +22767,10 @@
 	                        _react2.default.createElement(
 	                            'div',
 	                            { className: 'subpages' },
-	                            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
-	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About2.default }),
-	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/resume', component: _Resume2.default }),
-	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default })
+	                            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/cv-site', component: _Home2.default }),
+	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/cv-site/about', component: _About2.default }),
+	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/cv-site/resume', component: _Resume2.default }),
+	                            _react2.default.createElement(_reactRouterDom.Route, { path: '/cv-site/contact', component: _Contact2.default })
 	                        )
 	                    )
 	                )

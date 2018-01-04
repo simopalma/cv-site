@@ -1,0 +1,16 @@
+# testing
+test:
+    - 'eslint:source'
+    
+# stylesheets
+stylesheets:
+    - 'less:dist'
+
+# javascripts
+javascripts:
+    - 'webpack:dev'
+
+# build
+build:
+    - 'javascripts'
+    - 'stylesheets'

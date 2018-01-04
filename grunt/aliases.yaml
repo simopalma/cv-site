@@ -14,3 +14,7 @@ javascripts:
 build:
     - 'javascripts'
     - 'stylesheets'
+
+# travis
+deploy:
+    - 'gh-pages:local'

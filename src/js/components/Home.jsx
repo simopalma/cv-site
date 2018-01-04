@@ -32,7 +32,7 @@ export default class Home extends Component {
 
         return (
             <div className="subpages">
-                <section className="pt-page pt-page-1 section-with-bg section-paddings-0 pt-page-current" style={{ backgroundImage: "url('/images/home_page_bg.jpg')" }}>
+                <section className="pt-page pt-page-1 section-with-bg section-paddings-0 pt-page-current" style={{ backgroundImage: "url('cv-site/images/home_page_bg.jpg')" }}>
                     <div className="home-page-block-bg">
                         <div className="mask" />
                     </div>

@@ -16,13 +16,13 @@ const WORKSHEET_ID = '12VC85xcJo_00DBBGJiSC82IyQtK3Iwb_C5ASb-h-eEM';
 const state = {
     endpoint: {
         type: 'SPREADSHEETS',
-        url: `https://spreadsheets.google.com/feeds/list/${WORKSHEET_ID}/1/public/values?alt=json-in-script&callback={1}`,
+        url: `https://sheets.googleapis.com/v4/spreadsheets/${WORKSHEET_ID}/values/Esperienze?alt=json-in-script&callback={1}`,
         // type: 'JSON',
         // url: 'items.json',
     },
     endpointInformations: {
         type: 'INFORMATIONS',
-        url: `https://spreadsheets.google.com/feeds/list/${WORKSHEET_ID}/2/public/values?alt=json-in-script&callback={1}`,
+        url: `https://sheets.googleapis.com/v4/spreadsheets/${WORKSHEET_ID}/values/Informazioni?alt=json-in-script&callback={1}`,
     },
 };
 
